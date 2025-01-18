@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Earbuds",
+      "price": 5999,
+      "category": "Electronics",
+      "image": "/images/earbuds.webp",
+      "description": "High-quality wireless earbuds with noise cancellation."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 3999,
+      "category": "Electronics",
+      "image": "/images/smartwatch.avif",
+      "description": "Feature-packed smart watch with health tracking."
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "price": 8999,
+      "category": "Fashion",
+      "image": "/images/running-shoes.jpg",
+      "description": "Comfortable and lightweight running shoes for daily workouts."
+    },
+    {
+      "id": 4,
+      "name": "Gaming Laptop",
+      "price": 72999,
+      "category": "Electronics",
+      "image": "/images/gaming-laptop.avif",
+      "description": "Powerful gaming laptop with high-performance specs."
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "price": 4999,
+      "category": "Electronics",
+      "image": "/images/speaker.webp",
+      "description": "Portable Bluetooth speaker with excellent sound quality."
+    },
+    {
+      "id": 6,
+      "name": "Nike Backpack",
+      "price": 3999,
+      "category": "Accessories",
+      "image": "/images/backpack.png",
+      "description": "Stylish and durable backpack for daily use."
+    },
+    {
+      "id": 7,
+      "name": "Office Chair",
+      "price": 14999,
+      "category": "Furniture",
+      "image": "/images/office-chair.webp",
+      "description": "Ergonomic office chair with lumbar support."
+    },
+    {
+      "id": 8,
+      "name": "Sunglasses",
+      "price": 2999,
+      "category": "Fashion",
+      "image": "/images/sunglasses.webp",
+      "description": "Trendy sunglasses with UV protection."
+    },
+    {
+        "id": 9,
+        "name": "Noise Watch",
+        "price": 5000,
+        "category": "Electronics",
+        "image": "/images/noise-watch.webp",
+        "description": "Feature-packed smart watch with health tracking."
+    },
+    {
+        "id": 10,
+        "name": "Asus Laptop",
+        "price": 65000,
+        "category": "Electronics",
+        "image": "/images/asus.jpg",
+        "description": "Best, feature-rich laptop."
+    }
+  ]
+  
