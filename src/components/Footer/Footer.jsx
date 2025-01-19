@@ -29,7 +29,7 @@ const Footer = () => {
         <a href="/terms">Terms of Service</a>
       </div>
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} Supreme. All rights reserved.
+        &copy; {new Date().getFullYear()} LUXORA. All rights reserved.
       </div>
     </footer>
   )

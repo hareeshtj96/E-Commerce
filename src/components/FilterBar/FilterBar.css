@@ -1,0 +1,132 @@
+.filter-box {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.filter-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-category, .filter-price {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.filter-category select, .filter-price select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+}
+
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.filter-label {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+@media (min-width: 1025px) {
+    .filter-box {
+        max-width: 700px; 
+        margin-top: 30px; 
+        padding: 20px; 
+    }
+
+    .filter-row {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .filter-category, .filter-price {
+        flex: 1;
+        min-width: 200px; 
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .filter-category select, .filter-price select {
+        font-size: 16px;
+        padding: 10px; 
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .filter-box {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .filter-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .filter-category, .filter-price {
+        flex: 1;
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .filter-box {
+        padding: 10px;
+    }
+
+    .filter-row {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .filter-category, .filter-price {
+        flex: 1;
+        min-width: 100%;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-box {
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .filter-category select, .filter-price select {
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .filter-row {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
