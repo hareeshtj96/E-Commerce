@@ -4,7 +4,7 @@
       "name": "Wireless Earbuds",
       "price": 5999,
       "category": "Electronics",
-      "image": "/images/earbuds.webp",
+      "image": "images/earbuds.webp",
       "description": "High-quality wireless earbuds with noise cancellation."
     },
     {
@@ -12,7 +12,7 @@
       "name": "Smart Watch",
       "price": 3999,
       "category": "Electronics",
-      "image": "/images/smartwatch.avif",
+      "image": "images/smartwatch.avif",
       "description": "Feature-packed smart watch with health tracking."
     },
     {
@@ -20,7 +20,7 @@
       "name": "Running Shoes",
       "price": 8999,
       "category": "Fashion",
-      "image": "/images/running-shoes.jpg",
+      "image": "images/running-shoes.jpg",
       "description": "Comfortable and lightweight running shoes for daily workouts."
     },
     {
@@ -28,7 +28,7 @@
       "name": "Gaming Laptop",
       "price": 72999,
       "category": "Electronics",
-      "image": "/images/gaming-laptop.avif",
+      "image": "images/gaming-laptop.avif",
       "description": "Powerful gaming laptop with high-performance specs."
     },
     {
@@ -36,7 +36,7 @@
       "name": "Bluetooth Speaker",
       "price": 4999,
       "category": "Electronics",
-      "image": "/images/speaker.webp",
+      "image": "images/speaker.webp",
       "description": "Portable Bluetooth speaker with excellent sound quality."
     },
     {
@@ -44,7 +44,7 @@
       "name": "Nike Backpack",
       "price": 3999,
       "category": "Accessories",
-      "image": "/images/backpack.png",
+      "image": "images/backpack.png",
       "description": "Stylish and durable backpack for daily use."
     },
     {
@@ -52,7 +52,7 @@
       "name": "Office Chair",
       "price": 14999,
       "category": "Furniture",
-      "image": "/images/office-chair.webp",
+      "image": "images/office-chair.webp",
       "description": "Ergonomic office chair with lumbar support."
     },
     {
@@ -60,7 +60,7 @@
       "name": "Sunglasses",
       "price": 2999,
       "category": "Fashion",
-      "image": "/images/sunglasses.webp",
+      "image": "images/sunglasses.webp",
       "description": "Trendy sunglasses with UV protection."
     },
     {
@@ -68,7 +68,7 @@
         "name": "Noise Watch",
         "price": 5000,
         "category": "Electronics",
-        "image": "/images/noise-watch.webp",
+        "image": "images/noise-watch.webp",
         "description": "Feature-packed smart watch with health tracking."
     },
     {
@@ -76,7 +76,7 @@
         "name": "Asus Laptop",
         "price": 65000,
         "category": "Electronics",
-        "image": "/images/asus.jpg",
+        "image": "images/asus.jpg",
         "description": "Best, feature-rich laptop."
     }
   ]
