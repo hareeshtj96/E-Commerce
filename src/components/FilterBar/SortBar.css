@@ -1,3 +1,4 @@
+
 .sort-box {
     padding: 15px;
     background-color: #f8f9fa;
@@ -8,13 +9,14 @@
 }
 
 h3 {
-    font-size: 18px;;
+    font-size: 18px;
     margin-bottom: 10px;
+    font-weight: bold;
     color: #343a40;
 }
 
 select {
-    padding: 8px;
+    padding: 10px;
     font-size: 14px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -23,11 +25,14 @@ select {
     width: 100%;
 }
 
+
+
+
 @media (min-width: 1025px) {
     .sort-box {
-        width: 80%; 
-        margin-top: 30px; 
-        padding: 20px; 
+        width: 80%;
+        margin-top: 30px;
+        padding: 20px;
     }
 
     h3 {
@@ -35,41 +40,56 @@ select {
     }
 
     select {
-        font-size: 16px; 
-        padding: 10px; 
+        font-size: 16px;
+        padding: 12px;
     }
 }
+
 
 @media (max-width: 1024px) {
     .sort-box {
         width: 100%;
         margin-top: 15px;
     }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    select {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
+    .sort-box {
+        padding: 12px;
+        margin-top: 12px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    select {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
     .sort-box {
         padding: 10px;
         margin-top: 10px;
     }
 
     h3 {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .sort-box {
-        padding: 8px;
-        margin-top: 8px;
-    }
-
-    h3 {
-        font-size: 14px; 
+        font-size: 14px;
     }
 
     select {
-        font-size: 14px; 
-        padding: 7px;
+        font-size: 12px;
+        padding: 8px;
     }
 }
